@@ -1,0 +1,46 @@
+body{
+  background: #f4f4f4;
+}
+
+.container {
+  width: calc(100% - 80px);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+.justify-center{
+  justify-content: center;
+}
+
+.grow-1{
+  flex-grow: 1;
+}
+
+h1{
+  font-size: 1.5em ;
+}
+
+button{
+  border: none;
+  outline: none;
+  margin: 0;
+}
+
+input{
+  outline: none;
+  border: 1px solid #a0a0a0;
+  padding-left: 10px;
+}
+
+.align-center{
+  align-items: center;
+}
